@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<title>8-PEARL</title>
+    
+      <link rel="stylesheet" href="css/halimaw.css">
+     
+      <link rel="stylesheet" href="css/style.css">
+      
+      <link rel="stylesheet" href="css/responsive.css">
+  
+      <link rel="icon" href="images/sci high-modified.png" type="image/png" />
+      
+ 
+      
+
+
+   </head>
+ 
+   <body class="main-layout">
+     
+
+
+      <header>
+        
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+							<a href="https://www.facebook.com/profile.php?id=61551902606644"><img src="images/logo.png" alt="#" class="logo" /></a>
+ </div>
+</div>
+</div>
+</div>
+ <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+ <nav class="navigation navbar navbar-expand-md navbar-dark ">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarsExample04">
+  <ul class="navbar-nav mr-auto">
+
+                         <li>        <a class="nav-link" href="index.html"> Home  </a>
+                              </li>
+                                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="student.html">STUDENTS</a>
+                        <a class="dropdown-item" href="teachers.html">TEACHERS</a>
+                    </div>
+                </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="products.html">wHY US? </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="blog.html">mission&nbsp;</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="sampe.html">last?&nbsp;</a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="https://www.google.com/"><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                              <li class=" d_none get_btn">
+                                 <a  href="https://www.facebook.com/HCPSMScienceHS/posts/pfbid02AeuageAbYdJTBfh97qJhAGrngvBwC7Y1LcRsym7ThLk92BL1AbN4gGMfvqn6ftMRl">BE ONE OF US!&nbsp;</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+     
+      <section class="banner_main">
+		  
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="text-bg">
+                     <h1 class="eightPearl">8-PEARL</h1>
+                     <p class="eightPearl">" We never looked nice, we looked like art and art wasn't suppose to look nice
+						 it was supposed to make you feel something"</p>
+                     <a href="blog.html" class="discover">Discover</a>
+					  <div class="bouncing-ball-container">
+  <img class="bouncing-ball" src="images/sci high-modified.png" alt="Bouncing Ball">
+</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+  
+      <div class="three_box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="box_text">
+<figure><img src="images/img1.jpg" alt="#"/></figure>
+ </div>
+</div>
+ <div class="col-md-4">
+<div class="box_text">
+<figure><img src="images/img2.jpg" alt="#"/></figure>
+</div>
+</div>
+<div class="col-md-4">
+<div class="box_text">
+<figure><img src="images/img3.jpg" alt="#"/></figure>
+ </div>
+</div>
+</div>
+</div>
+</div>
+
+<div  class="hottest">
+ <div class="container">
+<div class="row d_flex">
+<div class="col-md-5">
+<div class="titlepage">
+<h2> HALL OF FAME</h2>
+</div>
+</div>
+<div class="col-md-7">
+<div class="hottest_box">
+        <p style="font-size: 26px">What we have achieved throughout the years:</p> <br>
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">1. Intramurals (Viva Verde Champion)</p> 
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">2. Science Week Informercial (2nd)</p> 
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">3. Zarzuwela (1st)</p>
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">4. Yes-O Implementer (2nd)</p> 
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">5. Books Open Doors (2nd)</p>
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">6. Character Parade Male (2nd)</p> 
+	<p style="font-size: 20px; font-family: 'Times New Roman', serif;">7.Cookfest (1st)</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+	   </div>
+ <script>
+    const observer = new IntersectionObserver(entries => {
+      for (let i = entries.length - 1; i >= 0; i--) {
+        const entry = entries[i]
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible")
+        }
+      }
+    })
+
+    document.querySelectorAll(".hottest").forEach(section => {
+      observer.observe(section)
+    })
+  </script>
+      <div class="choose ">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <div class="titlepage">
+                     <h2>Why Choose Us? </h2>
+                     <p>Have you had a section in mind to be selected in class observation? Don't contemplate now since our section holds top tier in class observations that will make the observer say "WOW".&nbsp; &nbsp; &nbsp; </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                  <div class="padding_with">
+                     <div class="row">
+                        <div class="col-md-6 padding_bottom">
+                           <div class="choose_box">
+                              <i><img src="images/icon1.png" alt="#"/></i>
+                             <div class="choose_text">
+                               <h3>Excellent Service</h3>
+                                <p>During class observations, you can certainly count on us since we will do better than best.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 padding_bottom">
+                           <div class="choose_box">
+                              <i><img src="images/icon2.png" alt="#"/></i>
+                             <div class="choose_text">
+                               <h3>Cleanliness</h3>
+                                <p>Our room is not a room for trash, thats why we observe as cleanliness as a priority.&nbsp;&nbsp;</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 padding_bottom2">
+                           <div class="choose_box">
+                              <i><img src="images/icon3.png" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>We Are Not Animals&nbsp;</h3>
+                                 <p>It is a long established fact that despite our behavior that we are still well behaved.&nbsp; &nbsp;&nbsp;</p>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="choose_box">
+                              <i><img src="images/icon4.png" alt="#"/></i>
+                              <div class="choose_text">
+                                 <h3>Active Scout&nbsp;</h3>
+                                 <p>Don't worry,&nbsp; Be happy. As a section your questions will not be left hanging.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                  <div class="choose_img">
+                     <figure><img src="images/food.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <a class="read_more" href="products.html">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+      <div class="product">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2>Our Memories</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_left0">
+                 <div class="product_box">
+                   <figure>
+<h3>Zarzuwela&nbsp;</h3>
+                   <img src="images/product1.jpg" alt="#"/></figure>
+</div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                  <div class="product_box">
+                     <figure><img src="images/product2.jpg" alt="#"/></figure>
+                     <h3 >tour&nbsp;</h3>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
+                 <div class="product_box">
+                   <figure><img src="images/product3.jpg" alt="#"/></figure>
+                    <h3>recognition&nbsp;</h3>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 padding_left0">
+                 <div class="product_box">
+                   <figure><img src="images/product4.jpg" alt="#"/></figure>
+                    <h3>intramurals&nbsp;</h3>
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 padding_right0">
+                 <div class="product_box">
+                   <figure><img src="images/product5.jpg" alt="#"/></figure>
+                    <h3>Christmas party&nbsp;</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	   
+      <!-- end product  section -->
+      <!-- about -->
+           <div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>What people say about us</h2>
+                     </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide about_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="test_box">
+                                          <i><img src="images/tes2.png" alt="#"/></i>
+                                          <h4>Lilybeth Palon</h4>
+                                          <p>This portion, in my opinion as 8-pearl's adviser, its more than simply a symbol but rather an evidence of our group's commitment and tenacity. Our accomplishments are the result of many layers of perseverance, teamwork, and support from one another, much like the layers that make up this section. But throughout my years in teaching this section, reflects the many skills and contributions of each member, stands for the cohesion and strength of our section. As long as they keep fostering it by honing their collaboration and inventiveness to make sure that their division continues to be a bright example of excellence.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="test_box">
+                                          <i><img src="images/tes1.png" alt="#"/></i>
+                                          <h4>Maricris Valino</h4>
+                                          <p>As a co-adviser of this section, I am very pleased of the pearl we have together cultivated with ma'am beth. It represents not just our group accomplishments but a symbol of fun. Kahit minsan maingay ang pearl ay sa loob ay minamahal ko parin. To make sure that our section continues to be a shining example of brilliance, creativity, and teamwork in our community, dapat continue to care tayo sa isa't isa and polish this priceless section. Lahat tayo mag continue to radiate light and motivate others.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="test_box">
+                                          <i><img src="images/tes3.png" alt="#"/></i>
+                                          <h4>Carl Reyes</h4>
+                                          <p>As a student in our energetic section, "8-Pearl" is a truly enjoyable place to be. It captures not only what we've accomplished but also our group's perseverance and hard work. Every layer embodies the commitment and diligence of my classmates, culminating in a harmonious and luminous whole and becomes an empty layer when someone leaves. It acts as a reminder of our common path and the possibilities that arise when we work together. And we will keep fostering this sense of community to make sure that our section continues to be a model of success and cohesion within our school.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="contact">
+         <div class="footer">
+           <div class="container">
+             <div class="row">
+                  <div class="col-md-4">
+                    
+					  <div class="titlepage">
+						
+                        <h2>Contact Us</h2>
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                    <form id="request" class="main_form" action="https://formspree.io/f/mwkgbzwv" method="post">
+  <div class="row">
+    <div class="col-md-3 ">
+      <input class="contactus" placeholder="Full Name" type="text" name="Full Name" required>
+    </div>
+    <div class="col-md-3">
+      <input class="contactus" placeholder="Email" type="email" name="Email" required>
+    </div>
+    <div class="col-md-3">
+      <input class="contactus" placeholder="Phone Number" type="tel" name="Phone Number" required>
+    </div>
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      <ul class="social_icon">
+        <li><a href="https://www.facebook.com/profile.php?id=61551902606644"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://x.com/perlashies24118?s=20"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/8-pearl-archives-3352252b7/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/perlas.ngsilangan/?igsh=MWZvZWNlNzJpeTJmcg%3D%3D&fbclid=IwAR0ZD3kf3eWTlhJGeaN1kCTnxGyVHSxjuFRllm3f-layLQ0IVNaAatNpsRI"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-md-8">
+      <textarea class="contactus1" placeholder="Message" type="text" name="Message" required></textarea>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+      <button type="submit" class="send_btn" name="submit">Send</button>
+    </div>
+  </div>
+</form>
+                  </div>
+                  <div class="col-md-3 border_right">
+                     <ul class="location_icon">
+                        <li><a href="https://maps.app.goo.gl/MGjFsYesEt9LZqpz7"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Cabanatuan City</li>
+                        <li><a href="https://globfone.com/call-phone/"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> &nbsp;(044) 600 5872</li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqBQrSHzSWRWvDsrmHkWDLdKDqmGWwbZxTDvsTjxXjPTdMkvNJlSHRKtWqgGQGbKBBbq"><i class="fa fa-envelope" aria-hidden="true"></i></a>scihig7app2021</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3 border_right">
+                     <h3>Going somewhere?&nbsp;</h3>
+                     <ul class="link">
+                       <li><a href="https://www.chess.com/play/online#">Play Chess&nbsp; </a></li>
+                        <li><a href="https://shopee.ph/?gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T9nDkhLRCcoIOaAK6TNMoaXYYnLoqiSGWvN0_Ob0OHpKU0cH_1tTAMaAhthEALw_wcB#">Shop&nbsp; </a> </li>
+                        <li><a href="https://myflixerz.to/#">Free Movies&nbsp; </a></li>
+                        <li><a href="https://www.junkybooks.com/?gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T-8dfgNyfv_-0oxjeq0MlOlXscOk5gvBMY01M-5q3qARM1Eq6LtS0gaAhNmEALw_wcB#">Free Books&nbsp; </a> </li>
+                        <li><a href="https://classroom.google.com/u/1/c/NjIwNTc3MzA1NTMy/a/NjYzMTIxNjYyODEy/details#">Grade our Work&nbsp; &nbsp; &nbsp; </a></li>
+                    </ul>
+               </div>
+               <div class="col-md-3 border_right">
+                 <h3>Menus</h3>
+                  <ul class="link">
+<li><a href="index.html">Home</a></li>                             
+<li><a href="student.html">About</a></li>                                                     
+<li><a href="products.html">Why Us&nbsp;</a></li>                             
+<li><a href="blog.html">Discover&nbsp;</a></li>
+<li><a href="sampe.html">Last&nbsp;</a></li>
+                  </ul>
+                 </div>
+                   <div class="col-md-3">
+                     <form class="bottom_form">
+                        <h3>LIKE OUR PAGE</h3>
+                      <br>
+                    <button class="like"><a href="https://www.facebook.com/profile.php?id=61551902606644">LIKE</a></button>
+                     </form>
+             </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>Copyright 2024 All Right Reserved By <a href="https://web.facebook.com/profile.php?id=100032057013136"> Carl Reyes</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+		  </div>
+      </footer>
+ <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+ 
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+

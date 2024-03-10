@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last stage</title>
+    <style>
+		
+		@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bagel+Fat+One&family=Bubblegum+Sans&family=Chewy&family=Lemon&family=Playfair+Display&family=Press+Start+2P&display=swap');
+body {
+    text-align: center;
+}
+
+
+#alert-text {
+  font-size: 50px;
+}
+
+.home-p {
+  color: yellow;
+  font-weight: 600;
+}
+
+.emphasised-words {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+body {background-image: url("background.png");
+height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 100px;
+   
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    position: absolute;
+   
+    margin: auto;
+    padding: 10px;
+   
+    height: inherit;
+    font-size: 1.2em;
+    color: white;
+    background-color: green;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #C0C0C0;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:hover {
+  background-color: yellowgreen;
+}
+
+button:nth-child(1) {
+    left: 300px;
+}
+
+button:nth-child(2) {
+    left: 800px;
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Press Start 2P';
+}
+
+.babygurl {
+    font-family: 'Alex Brush';
+    font-weight: 800;
+    font-size: 22px;
+    color: yellow;
+}
+
+.poem h1{
+    color: yellow;
+    text-shadow: 5px 5px #ffd8ef;
+}
+		.no-btn {background-color: red;}
+
+.glitch {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fd77ff,
+      0.025em 0.04em 0 #fffc00;
+    animation: glitch 725ms infinite;
+  }
+  
+  .glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .glitch span:first-child {
+    animation: glitch 500ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    transform: translate(-0.04em, -0.03em);
+    opacity: 0.75;
+  }
+  
+  .glitch span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    transform: translate(0.04em, 0.03em);
+    opacity: 0.75;
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    15% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    16% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    49% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    50% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    99% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    100% {
+      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+        -0.04em -0.025em 0 #fffc00;
+    }
+  }
+
+  #congrats-text {
+    color: rgb(0, 0, 156);
+    font-size: 30px;
+  }
+
+  .reservation-p {
+    color: #008987;
+  }
+
+  .pika-gif {
+    width: 300px;
+    height: 300px;
+  }
+
+  .date-img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .info-box {
+    background-color: #009f9c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+  }
+
+  .info-box p{
+    color: white;
+  }
+
+  .info-box span {
+    font-family: 'Lemon';
+    color: rgb(225, 255, 250);
+    text-shadow: 2px 2px #fdceff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a {
+    color: white;
+  }
+
+.nothingHerePage {
+  background-color: black;
+}
+
+.dream-text {
+  color: red;
+}</style>
+</head>
+
+<body>
+	<div>
+    <div class="wrapper">
+        <div>
+            <h1 class="glitch">
+                GIVE ME A PERFECT SCORE 🫵🏼
+            </h1>
+
+            <p class="babygurl">please</p>
+        </div>
+
+        <div>
+            <img src="./images/hitler pokemon.gif" height="400px">
+        </div>
+
+        <div class="poem">
+            <h1>Don't say no </h1>
+            <h1>Please give me </h1>
+            <h1>a 100</h1>
+        </div>
+
+        <div class="button-group">
+
+            <button onclick="toReservation()">
+                <p>Yes, I will give you a 100 🫡</p>
+            </button>
+
+            <button class="no-btn">
+                <p>No, I will not give you a 100 😶‍🌫️</p>
+            </button>
+        </div>
+
+    </div>
+
+
+    <script>
+        function toReservation() {
+            window.location.href = 'reservation.html';
+        }
+        const noBtn = document.querySelector('.no-btn');
+   
+        const noBtnRect = noBtn.getBoundingClientRect();
+
+        const wrapper = document.querySelector('.wrapper')
+        const wrapperRect = wrapper.getBoundingClientRect();
+
+        noBtn.addEventListener('mouseover', () => {
+            const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
+            const j = Math.floor(Math.random() * (wrapperRect.height - noBtnRect.height)) + 1;
+            noBtn.style.left = i + 'px';
+            noBtn.style.top = j + 'px';
+
+
+        });
+    </script>
+</body>
+
+</html>

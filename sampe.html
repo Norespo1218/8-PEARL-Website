@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+<title>8-PEARL</title>
+	 
+    <style>
+		
+		@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bagel+Fat+One&family=Bubblegum+Sans&family=Chewy&family=Lemon&family=Playfair+Display&family=Press+Start+2P&display=swap');
+body {
+    text-align: center;
+}
+
+
+#alert-text {
+  font-size: 50px;
+}
+
+.home-p {
+  color: yellow;
+  font-weight: 600;
+}
+
+.emphasised-words {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+body {background-image: url(background.png);
+height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-radius: 100px;
+   
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    position: absolute;
+   
+    margin: auto;
+    padding: 10px;
+   
+    height: inherit;
+    font-size: 1.2em;
+    color: white;
+    background-color: green;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #C0C0C0;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:hover {
+  background-color: yellowgreen;
+}
+
+button:nth-child(1) {
+    left: 300px;
+}
+
+button:nth-child(2) {
+    left: 800px;
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Press Start 2P';
+}
+
+.babygurl {
+    font-family: 'Alex Brush';
+    font-weight: 800;
+    font-size: 22px;
+    color: yellow;
+}
+
+.poem h1{
+    color: yellow;
+    text-shadow: 5px 5px #ffd8ef;
+}
+		.no-btn {background-color: red;}
+
+.glitch {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fd77ff,
+      0.025em 0.04em 0 #fffc00;
+    animation: glitch 725ms infinite;
+  }
+  
+  .glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .glitch span:first-child {
+    animation: glitch 500ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    transform: translate(-0.04em, -0.03em);
+    opacity: 0.75;
+  }
+  
+  .glitch span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    transform: translate(0.04em, 0.03em);
+    opacity: 0.75;
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    15% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    16% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    49% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    50% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    99% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    100% {
+      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+        -0.04em -0.025em 0 #fffc00;
+    }
+  }
+
+  #congrats-text {
+    color: rgb(0, 0, 156);
+    font-size: 30px;
+  }
+
+  .reservation-p {
+    color: #008987;
+  }
+
+  .pika-gif {
+    width: 300px;
+    height: 300px;
+  }
+
+  .date-img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .info-box {
+    background-color: #009f9c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+  }
+
+  .info-box p{
+    color: white;
+  }
+
+  .info-box span {
+    font-family: 'Lemon';
+    color: rgb(225, 255, 250);
+    text-shadow: 2px 2px #fdceff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a {
+    color: white;
+  }
+
+.nothingHerePage {
+  background-color: black;
+}
+
+.dream-text {
+  color: red;
+}</style>
+    
+      <link rel="stylesheet" href="css/halimaw.css">
+     
+      <link rel="stylesheet" href="css/style.css">
+      
+      <link rel="stylesheet" href="css/responsive.css">
+  
+           <link rel="icon" href="images/sci high-modified.png" type="image/png" />
+      
+
+
+   </head>
+ 
+   <body class="main-layout">
+     
+
+
+      <header>
+        
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+							<a href="https://www.facebook.com/profile.php?id=61551902606644"><img src="images/logo.png" alt="#" class="logo" /></a>
+ </div>
+</div>
+</div>
+</div>
+ <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+ <nav class="navigation navbar navbar-expand-md navbar-dark ">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarsExample04">
+  <ul class="navbar-nav mr-auto">
+
+                         <li>        <a class="nav-link" href="index.html"> Home  </a>
+                              </li>
+                                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="student.html">STUDENTS</a>
+                        <a class="dropdown-item" href="teachers.html">TEACHERS</a>
+                    </div>
+                </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="products.html">wHY US? </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="blog.html">mission&nbsp;</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="sampe.html">last?&nbsp;</a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="https://www.google.com/"><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                              <li class=" d_none get_btn">
+                                 <a  href="https://www.facebook.com/HCPSMScienceHS/posts/pfbid02AeuageAbYdJTBfh97qJhAGrngvBwC7Y1LcRsym7ThLk92BL1AbN4gGMfvqn6ftMRl">BE ONE OF US!&nbsp;</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+      <div class="bouncing-ball-container">
+  <img class="bouncing-ball" src="images/sci high-modified.png" alt="Bouncing Ball">
+</div>
+      <section class="banner_main2">
+		  
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                <div class="wrapper">
+        <div>
+            <h1 class="glitch">
+                GIVE ME A PERFECT SCORE ????
+            </h1>
+
+            <p class="babygurl">please</p>
+        </div>
+
+        <div>
+            <img src="./images/hitler pokemon.gif" height="400px">
+        </div>
+
+        <div class="poem">
+            <h1>Pretty Please?</h1>
+          
+        </div>
+
+        <div class="button-group">
+
+            <button onclick="toReservation()" >
+               <a href="https://classroom.google.com/u/1/c/NjIwNTc3MzA1NTMy/a/NjYzMTIxNjYyODEy/details"> <p style="color: #FFFFFF">Yes, I will give you a 100 ??</p></a>
+            </button>
+
+            <button class="no-btn">
+                <p>No, I will not give you a 100 ??????</p>
+            </button>
+        </div>
+
+    </div>
+                   
+                  </div>
+               </div>
+            </div>
+       
+      </section>
+  
+       <footer id="contact">
+         <div class="footer">
+           <div class="container">
+             <div class="row">
+                  <div class="col-md-4">
+                    
+					  <div class="titlepage">
+						
+                        <h2>Contact Us</h2>
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                    <form id="request" class="main_form" action="https://formspree.io/f/mwkgbzwv" method="post">
+  <div class="row">
+    <div class="col-md-3 ">
+      <input class="contactus" placeholder="Full Name" type="text" name="Full Name" required>
+    </div>
+    <div class="col-md-3">
+      <input class="contactus" placeholder="Email" type="email" name="Email" required>
+    </div>
+    <div class="col-md-3">
+      <input class="contactus" placeholder="Phone Number" type="tel" name="Phone Number" required>
+    </div>
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      <ul class="social_icon">
+        <li><a href="https://www.facebook.com/profile.php?id=61551902606644"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://x.com/perlashies24118?s=20"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/8-pearl-archives-3352252b7/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/perlas.ngsilangan/?igsh=MWZvZWNlNzJpeTJmcg%3D%3D&fbclid=IwAR0ZD3kf3eWTlhJGeaN1kCTnxGyVHSxjuFRllm3f-layLQ0IVNaAatNpsRI"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-md-8">
+      <textarea class="contactus1" placeholder="Message" type="text" name="Message" required></textarea>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+      <button type="submit" class="send_btn" name="submit">Send</button>
+    </div>
+  </div>
+</form>
+                  </div>
+                  <div class="col-md-3 border_right">
+                     <ul class="location_icon">
+                        <li><a href="https://maps.app.goo.gl/MGjFsYesEt9LZqpz7"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Cabanatuan City</li>
+                        <li><a href="https://globfone.com/call-phone/"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> &nbsp;(044) 600 5872</li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqBQrSHzSWRWvDsrmHkWDLdKDqmGWwbZxTDvsTjxXjPTdMkvNJlSHRKtWqgGQGbKBBbq"><i class="fa fa-envelope" aria-hidden="true"></i></a>scihig7app2021</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3 border_right">
+                     <h3>Going somewhere?&nbsp;</h3>
+                     <ul class="link">
+                       <li><a href="https://www.chess.com/play/online#">Play Chess&nbsp; </a></li>
+                        <li><a href="https://shopee.ph/?gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T9nDkhLRCcoIOaAK6TNMoaXYYnLoqiSGWvN0_Ob0OHpKU0cH_1tTAMaAhthEALw_wcB#">Shop&nbsp; </a> </li>
+                        <li><a href="https://myflixerz.to/#">Free Movies&nbsp; </a></li>
+                        <li><a href="https://www.junkybooks.com/?gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T-8dfgNyfv_-0oxjeq0MlOlXscOk5gvBMY01M-5q3qARM1Eq6LtS0gaAhNmEALw_wcB#">Free Books&nbsp; </a> </li>
+                        <li><a href="https://classroom.google.com/u/1/c/NjIwNTc3MzA1NTMy/a/NjYzMTIxNjYyODEy/details#">Grade our Work&nbsp; &nbsp; &nbsp; </a></li>
+                    </ul>
+               </div>
+               <div class="col-md-3 border_right">
+                 <h3>Menus</h3>
+                  <ul class="link">
+<li><a href="index.html">Home</a></li>                             
+<li><a href="student.html">About</a></li>                                                     
+<li><a href="products.html">Why Us&nbsp;</a></li>                             
+<li><a href="blog.html">Discover&nbsp;</a></li>
+<li><a href="sampe.html">Last&nbsp;</a></li>
+                  </ul>
+                 </div>
+                   <div class="col-md-3">
+                     <form class="bottom_form">
+                        <h3>LIKE OUR PAGE</h3>
+                      <br>
+                    <button class="like"><a href="https://www.facebook.com/profile.php?id=61551902606644">LIKE</a></button>
+                     </form>
+             </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>Copyright 2024 All Right Reserved By <a href="https://web.facebook.com/profile.php?id=100032057013136"> Carl Reyes</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+		  </div>
+      </footer>
+ <script src="js/jquery.min.js"></script>
+	       <script>
+        function toReservation() {
+            window.location.href = 'reservation.html';
+        }
+        const noBtn = document.querySelector('.no-btn');
+   
+        const noBtnRect = noBtn.getBoundingClientRect();
+
+        const wrapper = document.querySelector('.wrapper')
+        const wrapperRect = wrapper.getBoundingClientRect();
+
+        noBtn.addEventListener('mouseover', () => {
+            const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
+            const j = Math.floor(Math.random() * (wrapperRect.height - noBtnRect.height)) + 1;
+            noBtn.style.left = i + 'px';
+            noBtn.style.top = j + 'px';
+
+
+        });
+    </script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+
