@@ -3,13 +3,13 @@
    <head>
 <title>8-PEARL</title>
     
-      <link rel="stylesheet" href="css/halimaw.css">
+      <link rel="stylesheet" href="halimaw.css">
      
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="style.css">
       
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="responsive.css">
   
-      <link rel="icon" href="images/sci high-modified.png" type="image/png" />
+      <link rel="icon" href="sci high-modified.png" type="image/png" />
       
  
       
@@ -30,7 +30,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-							<a href="https://www.facebook.com/profile.php?id=61551902606644"><img src="images/logo.png" alt="#" class="logo" /></a>
+							<a href="https://www.facebook.com/profile.php?id=61551902606644"><img src="logo.png" alt="#" class="logo" /></a>
  </div>
 </div>
 </div>
