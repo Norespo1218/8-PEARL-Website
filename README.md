@@ -440,13 +440,13 @@
          </div>
 		  </div>
       </footer>
- <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
+ <script src="jquery.min.js"></script>
+      <script src="popper.min.js"></script>
+      <script src="bootstrap.bundle.min.js"></script>
+      <script src="jquery-3.0.0.min.js"></script>
  
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="custom.js"></script>
    </body>
 </html>
 
